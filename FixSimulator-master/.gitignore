@@ -1,0 +1,21 @@
+
+# idea
+.idea/
+build/
+
+*.iml
+*.ipr
+*.iws
+
+# eclipse
+.classpath
+.metadata
+.project
+.settings/
+
+
+.gradle/
+
+# others
+/logs/
+prod-logs/

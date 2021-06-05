@@ -1,0 +1,87 @@
+{
+  "properties": [
+    {
+      "name": "quickfixj.client.config",
+      "type": "java.lang.String",
+      "description": "The location of the configuration file to use to initialize QuickFIX/J client."
+    },
+    {
+      "name": "quickfixj.client.auto-startup",
+      "type": "java.lang.Boolean",
+      "description": "Whether the client should get started automatically.",
+      "defaultValue": true
+    },
+    {
+      "name": "quickfixj.client.phase",
+      "type": "java.lang.Integer",
+      "description": "The spring initialisation phase in which the client will start.",
+      "defaultValue": 2147483647
+    },
+    {
+      "name": "quickfixj.client.jmx-enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to register the Jmx MBeans for the client.",
+      "defaultValue": false
+    },
+    {
+      "name": "quickfixj.client.concurrent.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to use SocketInitiator or ThreadedSocketInitiator. Default is false (SocketInitiator)",
+      "defaultValue": false
+    },
+    {
+      "name": "quickfixj.client.message-store-factory",
+      "type": "java.lang.String",
+      "description": "The message store factory to use. Possible values: cachedfile, file, jdbc, memory, noop, sleepycat",
+      "defaultValue": "memory"
+    },
+    {
+      "name": "quickfixj.client.log-factory",
+      "type": "java.lang.String",
+      "description": "The log factory to use. Possible values: compositelog, file, jdbc, slf4j, screen",
+      "defaultValue": "screen"
+    },
+    {
+      "name": "quickfixj.server.config",
+      "type": "java.lang.String",
+      "description": "The location of the configuration file to use to initialize QuickFIX/J server."
+    },
+    {
+      "name": "quickfixj.server.auto-startup",
+      "type": "java.lang.Boolean",
+      "description": "Whether the server should get started automatically.",
+      "defaultValue": true
+    },
+    {
+      "name": "quickfixj.server.phase",
+      "type": "java.lang.Integer",
+      "description": "The spring initialisation phase in which the server will start.",
+      "defaultValue": 2147483647
+    },
+    {
+      "name": "quickfixj.server.jmx-enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to register the Jmx MBeans for the server.",
+      "defaultValue": false
+    },
+    {
+      "name": "quickfixj.server.concurrent.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to use SocketAcceptor or ThreadedSocketAcceptor. Default is false (SocketAcceptor)",
+      "defaultValue": false
+    },
+    {
+      "name": "quickfixj.server.message-store-factory",
+      "type": "java.lang.String",
+      "description": "The message store factory to use. Possible values: cachedfile, file, jdbc, memory, noop, sleepycat",
+      "defaultValue": "memory"
+    },
+    {
+      "name": "quickfixj.server.log-factory",
+      "type": "java.lang.String",
+      "description": "The log factory to use. Possible values: compositelog, file, jdbc, slf4j, screen",
+      "defaultValue": "screen"
+    }
+  ]
+}
+
