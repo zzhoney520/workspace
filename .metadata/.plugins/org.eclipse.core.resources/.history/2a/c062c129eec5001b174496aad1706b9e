@@ -1,0 +1,23 @@
+package com.example.demo.controller;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@lombok.Getter
+@lombok.Setter
+@ConfigurationProperties(prefix = "com.honey.home")
+public class MyController {
+	public String id;
+	public String firstName;
+	public String lastName;
+	public String company;
+	public String job;
+	public String email;
+	public int age;
+
+	public void getID() {
+
+	}
+
+}

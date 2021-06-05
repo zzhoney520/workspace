@@ -1,0 +1,12 @@
+package com.example.demo.controller;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@lombok.Getter
+@lombok.Setter
+@ConfigurationProperties
+public class MyController {
+	public String myJob;
+}
