@@ -12,8 +12,8 @@ import lombok.extern.log4j.Log4j2;
 
 @RestController
 @ConfigurationProperties(prefix = "com.honey.home")
-@Data
 @Log4j2
+@Data
 public class MyController {
 	public String id;
 	public String firstName;
@@ -35,8 +35,9 @@ public class MyController {
 
 	@GetMapping("/getage")
 	public int showAge() {
+		Logger performanceLogger = LoggerFactory.getLogger("PERFORMANCE");
+		performanceLogger.debug("=====PERFORMANCE=====");
 		return this.getAge();
 	}
-		
 	
 }

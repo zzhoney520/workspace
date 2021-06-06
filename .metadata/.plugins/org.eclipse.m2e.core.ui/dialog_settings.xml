@@ -20,6 +20,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\workspace\springboot2-log4j2-demo-master"/>
 			<item value="D:\workspace\demo"/>
 		</list>
 		<list key="projectNameTemplate">
