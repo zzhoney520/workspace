@@ -3,6 +3,7 @@
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
 		<item value="net.mihai-nita.ansicon:1.4.4.202102080044"/>
+		<item value="org.basepom.m2e.mycila_license.feature:1.1.0"/>
 		<item value="org.eclipse.buildship:3.1.5.v20210113-0929"/>
 		<item value="org.eclipse.egit.gitflow.feature:5.11.0.202103091610-r"/>
 		<item value="org.eclipse.egit:5.11.0.202103091610-r"/>
@@ -50,5 +51,7 @@
 			<item key="DIALOG_Y_ORIGIN" value="373"/>
 			<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 		</section>
+	</section>
+	<section name="ExternalProjectImportWizard">
 	</section>
 </section>

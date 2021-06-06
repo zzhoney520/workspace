@@ -1,9 +1,0 @@
-com.honey.home.id=${random.uuid}
-com.honey.home.firstName="honey"
-com.honey.home.lastName="sue"
-com.honey.home.company="Fix Company"
-com.honey.home.job="SE"
-com.honey.home.age=36
-com.honey.home.Email="zzhoney520@outlook.com"
-
-

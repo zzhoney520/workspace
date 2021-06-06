@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="1.18.18"/>
 			<item value="jdbc"/>
 		</list>
 		<list key="replacehistory">
