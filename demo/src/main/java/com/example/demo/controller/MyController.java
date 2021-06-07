@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
+import lombok.extern.log4j.Log4j2;
 
 @RestController
 @ConfigurationProperties(prefix = "com.honey.home")
-@Slf4j
+@Log4j2
 @Data
 public class MyController {
 	public String id;
@@ -39,6 +39,5 @@ public class MyController {
 		performanceLogger.debug("=====PERFORMANCE=====");
 		return this.getAge();
 	}
-	
-	log.
+
 }
