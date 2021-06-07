@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.Data;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @ConfigurationProperties(prefix = "com.honey.home")
-@Log4j2
+@Slf4j
 @Data
 public class MyController {
 	public String id;
@@ -40,4 +40,5 @@ public class MyController {
 		return this.getAge();
 	}
 	
+	log.
 }
