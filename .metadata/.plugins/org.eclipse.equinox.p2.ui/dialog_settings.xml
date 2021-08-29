@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.WizardSettings">
-		<item key="DIALOG_X_ORIGIN" value="243"/>
-		<item key="DIALOG_Y_ORIGIN" value="6"/>
+		<item key="DIALOG_X_ORIGIN" value="755"/>
+		<item key="DIALOG_Y_ORIGIN" value="234"/>
 		<item key="DIALOG_WIDTH" value="1063"/>
 		<item key="DIALOG_HEIGHT" value="708"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
@@ -32,11 +32,32 @@
 		<item key="ListSashWeight" value="800"/>
 		<item key="DetailsSashWeight" value="200"/>
 	</section>
-	<section name="org.eclipse.m2e.internal.discovery.wizards.MavenDiscoveryInstallWizard.WizardSettings">
-		<item key="DIALOG_X_ORIGIN" value="-164"/>
-		<item key="DIALOG_Y_ORIGIN" value="-132"/>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UninstallWizard.WizardSettings">
+		<item key="DIALOG_X_ORIGIN" value="1024"/>
+		<item key="DIALOG_Y_ORIGIN" value="376"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="495"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.WizardSettings">
+		<item key="DIALOG_X_ORIGIN" value="849"/>
+		<item key="DIALOG_Y_ORIGIN" value="354"/>
 		<item key="DIALOG_WIDTH" value="875"/>
 		<item key="DIALOG_HEIGHT" value="528"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.SelectableIUsPage">
+		<item key="NameColumnWidth" value="360"/>
+		<item key="VersionColumnWidth" value="120"/>
+		<item key="IDColumnWidth" value="240"/>
+		<item key="ListSashWeight" value="800"/>
+		<item key="DetailsSashWeight" value="200"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.ResolutionResultsPage">
+		<item key="NameColumnWidth" value="400"/>
+		<item key="VersionColumnWidth" value="200"/>
+		<item key="IDColumnWidth" value="200"/>
+		<item key="ListSashWeight" value="800"/>
+		<item key="DetailsSashWeight" value="200"/>
 	</section>
 </section>
